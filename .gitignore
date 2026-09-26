@@ -1,0 +1,20 @@
+# Secrets and Telegram sessions
+.env
+*.session
+*.session-journal
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.uv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/

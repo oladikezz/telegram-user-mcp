@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "telegram-user": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "C:/Users/user/Desktop/telegram-user-mcp",
+        "--with",
+        "mcp[cli]",
+        "--with",
+        "telethon",
+        "--with",
+        "python-dotenv",
+        "python",
+        "server.py"
+      ],
+      "env": {
+        "TELEGRAM_API_ID": "12345678",
+        "TELEGRAM_API_HASH": "your_api_hash_here",
+        "TELEGRAM_SESSION_STRING": "your_session_string_from_auth_py"
+      }
+    }
+  }
+}
